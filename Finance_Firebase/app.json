@@ -1,0 +1,35 @@
+{
+  "expo": {
+    "name": "Finance",
+    "slug": "projectFinance",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/Logo.jpg",
+    "userInterfaceStyle": "dark",
+    "splash": {
+      "image": "./assets/_Splash.png",
+      "backgroundColor": "#7e22bb",
+      "resizeMode": "contain"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/Logo.png"
+      },
+      "package": "com.gabsmarc.projectFinance.firebase"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "fc11dc6a-6168-4e2e-bea1-9ac15d830f71"
+      }
+    }
+  }
+}
